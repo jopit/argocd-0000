@@ -14,7 +14,7 @@ spec:
         app: argocd-0000
     spec:
       containers:
-      - image: nginx
+      - image: quay.io/app-sre/nginx
         name: argocd-0000
         ports:
         - containerPort: 80
